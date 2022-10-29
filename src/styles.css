@@ -1,5 +1,45 @@
-h1 {
+.hero {
+    padding: 180px 20px;
     display: block;
     text-align: center;
+    background-color: azure;
+}
+
+
+h1 {
+    font-size: 85px;
+}
+
+
+h2 {
+    font-size: 50px;
+}
+
+
+h1,
+h2 {
     color: cornflowerblue;
+    font-family: 'Fuzzy Bubbles';
+    font-weight: bold;
+}
+
+.link a {
+    margin: 20px auto;
+    text-decoration: none;
+    border: 3px solid cornflowerblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Fuzzy Bubbles';
+}
+
+
+a:hover {
+    background-color: cornflowerblue;
+    color: azure;
+}
+
+
+.link {
+    margin: 50px auto;
 }
