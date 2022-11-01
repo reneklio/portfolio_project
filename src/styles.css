@@ -1,24 +1,29 @@
 .hero {
-    padding: 180px 20px;
+    padding: 140px 20px;
     display: block;
     text-align: center;
-    background-color: azure;
+    border: 20px solid #003087;
+    border-radius: 10px;
+
 }
+
 
 
 h1 {
     font-size: 85px;
+    color: #003087;
 }
 
 
 h2 {
     font-size: 50px;
+    color: cornflowerblue;
 }
 
 
 h1,
 h2 {
-    color: cornflowerblue;
+
     font-family: 'Fuzzy Bubbles';
     font-weight: bold;
 }
@@ -26,7 +31,7 @@ h2 {
 .link a {
     margin: 20px auto;
     text-decoration: none;
-    border: 3px solid cornflowerblue;
+    border: 4px solid #003087;
     border-radius: 10px;
     padding: 10px 20px;
     font-size: 20px;
@@ -42,4 +47,40 @@ a:hover {
 
 .link {
     margin: 50px auto;
+}
+
+
+.container {
+    margin: 90px auto;
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 65px;
+
+}
+
+i {
+    font-size: 65px;
+    color: #003087;
+    padding: 10px;
+}
+
+
+.object-name {
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Fuzzy Bubbles';
+    color: cornflowerblue;
+}
+
+
+.object-text {
+    color: #003087;
+    text-align: justify;
+    padding: 5px 20px;
 }
