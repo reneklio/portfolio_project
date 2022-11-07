@@ -106,3 +106,44 @@ i {
 .contacts a {
     border: none;
 }
+
+
+
+@media (max-width: 800px) {
+
+    .projects {
+        display: block;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    a {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    .projects h2 {
+        padding: 10px 20px;
+    }
+}
