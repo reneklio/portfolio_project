@@ -107,7 +107,28 @@ i {
     border: none;
 }
 
+footer {
+    background-color: #003087;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
 
+footer a {
+    border: none;
+    text-decoration: underline;
+    padding: 0;
+    color: white;
+    font-size: 13px;
+}
+
+footer a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #003087;
+
+}
 
 @media (max-width: 800px) {
 
@@ -146,4 +167,14 @@ i {
     .projects h2 {
         padding: 10px 20px;
     }
+
+    footer {
+        padding: 10px;
+        font-size: 9px;
+    }
+
+    footer a {
+        font-size: 9px;
+    }
+
 }
